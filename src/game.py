@@ -389,6 +389,3 @@ class Robot_game:
                           self.play()
 
             pygame.display.update()
-
-#game = Robot_game()
-#game.init_game()
