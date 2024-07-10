@@ -1,8 +1,5 @@
 import pygame
-import pygame_gui
 from pygame.locals import *
-from pygame_gui.elements import UIButton, UIPanel, UILabel, UIWindow
-
 
 pygame.init()
 clock = pygame.time.Clock()
@@ -393,5 +390,5 @@ class Robot_game:
 
             pygame.display.update()
 
-game = Robot_game()
-game.init_game()
+#game = Robot_game()
+#game.init_game()
